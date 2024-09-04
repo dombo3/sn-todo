@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_segment">
+    <sys_sg_item_stream_segment action="INSERT_OR_UPDATE">
+        <empty_state/>
+        <interleave_order_direction>asc</interleave_order_direction>
+        <max_offline_rows>500</max_offline_rows>
+        <name>My To Dos Item Stream Segment</name>
+        <order>0</order>
+        <screen display_value="My To Dos">09a7a73b8358de1018c19965eeaad3cf</screen>
+        <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 19:23:48</sys_created_on>
+        <sys_id>cda7a73b8358de1018c19965eeaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My To Dos Item Stream Segment</sys_name>
+        <sys_package display_value="To Do" source="x_1298781_to_do">941adaeb839c5e1018c19965eeaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">941adaeb839c5e1018c19965eeaad317</sys_scope>
+        <sys_update_name>sys_sg_item_stream_segment_cda7a73b8358de1018c19965eeaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 19:23:48</sys_updated_on>
+    </sys_sg_item_stream_segment>
+</record_update>
