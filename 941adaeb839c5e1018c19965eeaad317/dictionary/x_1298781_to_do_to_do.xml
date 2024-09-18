@@ -8,6 +8,7 @@
             </choice>
         </element>
         <element label="Send reminder" max_length="40" name="send_reminder" type="boolean"/>
+        <element label="Delete me" max_length="40" name="delete_me" type="boolean"/>
         <element display="true" label="To do item" max_length="150" name="to_do_item" type="string"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element choice="3" default="not_started" function_definition="not_started" label="Progress" max_length="40" name="progress" type="choice">
