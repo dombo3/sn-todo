@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_web_service">
+    <sys_web_service action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <function_name>execute</function_name>
+        <name>DemoEchoSOAP</name>
+        <scoped_name>x_1298781_to_do_DemoEchoSOAP</scoped_name>
+        <script><![CDATA[(function scriptedWebServiceOperation(request, response) {
+
+	// Add your code here
+	response.ouput_parm1 = 'I just echo your request: ' + request.input_parm1;
+})(request, response);]]></script>
+        <short_description>Demonstration of a simple ECHO "Scripted SOAP Service", can be upgraded to use for To Do-s</short_description>
+        <sys_class_name>sys_web_service</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-18 12:29:24</sys_created_on>
+        <sys_id>8dbecad483f4961018c19965eeaad39e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DemoEchoSOAP</sys_name>
+        <sys_package display_value="To Do" source="x_1298781_to_do">941adaeb839c5e1018c19965eeaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">941adaeb839c5e1018c19965eeaad317</sys_scope>
+        <sys_update_name>sys_web_service_8dbecad483f4961018c19965eeaad39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-18 12:32:51</sys_updated_on>
+        <wsdl>https://dev205060.service-now.com/x_1298781_to_do_DemoEchoSOAP.do?WSDL</wsdl>
+        <wsdl_compliance>false</wsdl_compliance>
+    </sys_web_service>
+</record_update>
